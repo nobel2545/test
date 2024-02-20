@@ -1,19 +1,22 @@
-function setup() {
-    createCanvas(windowWidth, windowHeight/2);
-  }
-  
-  function draw() {
-    background(25);
-    drawCloud();
-  }
+let url = ('https://raw.githubusercontent.com/novellac/multilanguage-hello-json/master/hello.json');
+let img
 
-  function drawCloud(){
-    noStroke();
-    fill(random(250,255));
-    circle(50,150,50);
-    circle(85,140,75);
-    circle(100,100,70);
-    circle(140,110,50);
-    circle(120,145,80);
-    circle(160,140,60);
-  }
+function preload(){
+  hi = loadJSON(url);
+}
+
+function setup() {
+  randNum = int(random(104));
+}
+
+function draw() {
+  createCanvas(windowWidth, windowHeight/2);
+  background(100);
+
+  noStroke();
+  ellipse(150, 150, 200, 100);
+  triangle(250, 200, 80, 150, 200, 150);
+
+  textSize(25);
+    text(hi[randNum].hello, 80, 155);
+}
