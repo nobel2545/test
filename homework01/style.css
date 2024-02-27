@@ -1,0 +1,60 @@
+
+
+.border {
+    border: 5px solid red;
+}
+#top {
+    position: relative;
+    height: 20px;
+    top: 50px;
+    font-family: poppins;
+    font-size: 24px;
+}
+
+#top #logo {
+    position : absolute;
+    left: 75px;
+    top: 0;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+#top #path {
+    position : relative;
+    left: 35%;
+    top: 0;
+    word-spacing: 20px;
+}
+
+
+#top #botton {
+    position : absolute;
+    right: 75px;
+    top: 0;
+    word-spacing: 30px;
+}
+
+#paragraph {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    height: 45%;
+    width: 45%;
+    font-size: 84px;
+    font-family: poppins;
+    font-weight: 600;
+    line-height: 120px;
+    border: 2px solid blue;
+}
+
+#little-text {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    height: 10%;
+    width: 45%;
+    font-size: 22px;
+    font-family: poppins;
+    line-height: 30px;
+    border: 2px solid blue;
+}
