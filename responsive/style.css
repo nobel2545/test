@@ -1,0 +1,36 @@
+
+/* breakepoint มือถือ */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-1 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.heading-1:hover {
+    color: red;
+}
+
+.my-img:hover {
+    transform: scale(1.1);
+}
+
+
+/* breakpoint small */
+@media (min-width: 480px) {
+    .container {
+        flex-direction: row;
+        align-items: center;
+    }
+    .heading-1 {
+        font-size: 32px;
+        width: 50%;
+    }
+    .my-img {
+    }
+}

@@ -1,0 +1,18 @@
+
+/*เปลี่ยนตามขนาดหน้าจอ*/
+
+/* 
+breakpoint medium 
+@media (min-width: 720px) {
+    .heading-1 {
+        font-size: 150px;
+    }
+}
+
+/* breakpoint large 
+@media (min-width: 1080px) {
+    .heading-1 {
+        font-size: 200px;
+    }
+}
+*/
